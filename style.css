@@ -1,0 +1,86 @@
+body {
+    background-color: hsl(36, 86%, 74%);
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: serif;
+}
+h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: white;
+    width: 350px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card_image {
+    background-color: white;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-1 {
+    background-image: url("https://images.unsplash.com/photo-1553374402-559e8b431161?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+}
+input {
+    background-color: hsl(39, 31%, 48%);
+    border: 0px;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    position: bottom;
+    bottom: 0px;
+    float: left;
+}
+input:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+input:active {
+    background-color: rgb(202, 183, 143);
+    transform: translateY(4px);
+}
+
+#btn2 {
+    background-color: hsl(39, 31%, 48%);
+    border: 0px;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 15px;
+    
+}
+#btn2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+#btn2:active {
+    background-color: rgb(202, 183, 143);
+    transform: translateY(4px);
+}
+form {
+    display: left;
+    margin: 0 auto;
+    padding: 5px 10px;
+    bottom: 0px;
+    position: bottom;
+}
+
+    
