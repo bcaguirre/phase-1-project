@@ -6,6 +6,8 @@ let somethingElse = document.getElementById("btn2");
 let letsDoThis = document.getElementById("submit_button");
 let activityArr = [];
 
+// testing change.
+
 //renders a random activity to the DOM 
 function getActivity() {
 fetch("http://www.boredapi.com/api/activity")
